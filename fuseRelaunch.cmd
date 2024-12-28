@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "F:/JUDY_ESSAM/MIPS_tb_isim_beh.exe" -prj "F:/JUDY_ESSAM/MIPS_tb_beh.prj" "MIPS_tb" 

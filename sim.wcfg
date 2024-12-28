@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/JUDY_ESSAM/MIPS_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mips_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/mips_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/nextpc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nextpc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextpc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regdst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regdst</obj_property>
+      <obj_property name="ObjectShortName">regdst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/memread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/memtoreg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memtoreg</obj_property>
+      <obj_property name="ObjectShortName">memtoreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/aluop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/memwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/alusrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/rs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/rt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regwritedata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regwritedata[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regwritedata[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regreaddata_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regreaddata_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regreaddata_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regreaddata_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regreaddata_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regreaddata_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regwritedatain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regwritedatain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regwritedatain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/instructionmemoryaddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instructionmemoryaddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instructionmemoryaddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/instructionmemoryoutput" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instructionmemoryoutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instructionmemoryoutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/aluin_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluin_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluin_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/aluin_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluin_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluin_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/alures" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alures[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alures[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/branchandzero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">branchandzero</obj_property>
+      <obj_property name="ObjectShortName">branchandzero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/datamemoryreaddata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datamemoryreaddata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datamemoryreaddata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/signextendin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">signextendin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">signextendin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/signextendout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">signextendout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signextendout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/shiftout32" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shiftout32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shiftout32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/alucontrol_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alucontrol_in[5:0]</obj_property>
+      <obj_property name="ObjectShortName">alucontrol_in[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/alucontrol_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alucontrol_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alucontrol_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/pcadder_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcadder_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcadder_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/branchadder_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">branchadder_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branchadder_out[31:0]</obj_property>
+   </wvobject>
+</wave_config>

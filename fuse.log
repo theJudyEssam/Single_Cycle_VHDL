@@ -1,0 +1,45 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "F:/JUDY_ESSAM/MIPS_tb_isim_beh.exe" -prj "F:/JUDY_ESSAM/MIPS_tb_beh.prj" "MIPS_tb" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/JUDY_ESSAM/sign_extend.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/shift_left_2.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/register_2.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/pc.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/Mux_5_Bits.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/MUX32.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/Memory.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/Instruction_Memory.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/alu_control_22.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/Alu_control.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/Alu_221000519.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/adder32.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/MIPS.vhd" into library work
+Parsing VHDL file "F:/JUDY_ESSAM/MIPS_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity pc [pc_default]
+Compiling architecture behavioral of entity Instruction_Memory [instruction_memory_default]
+Compiling architecture behavioral of entity alu_control_22 [alu_control_22_default]
+Compiling architecture behavioral of entity register_2 [register_2_default]
+Compiling architecture behavioral of entity Alu_control [alu_control_default]
+Compiling architecture behavioral of entity Alu_221000519 [alu_221000519_default]
+Compiling architecture behave of entity Memory [memory_default]
+Compiling architecture behavioral of entity adder32 [adder32_default]
+Compiling architecture behavioral of entity sign_extend [sign_extend_default]
+Compiling architecture behavioral of entity shift_left_2 [shift_left_2_default]
+Compiling architecture behavioral of entity MUX32 [mux32_default]
+Compiling architecture behavioral of entity Mux_5_Bits [mux_5_bits_default]
+Compiling architecture behavioral of entity MIPS [mips_default]
+Compiling architecture behavior of entity mips_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\MIPS_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 30 VHDL Units
+Built simulation executable F:/JUDY_ESSAM/MIPS_tb_isim_beh.exe
+Fuse Memory Usage: 36720 KB
+Fuse CPU Usage: 562 ms

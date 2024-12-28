@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "F:/JU/alu_control_22.xst" -ofn "F:/JU/alu_control_22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 alu_control_22.ngc alu_control_22.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o alu_control_22_map.ncd alu_control_22.ngd alu_control_22.pcf 
+par -w -intstyle ise -ol high -mt off alu_control_22_map.ncd alu_control_22.ncd alu_control_22.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml alu_control_22.twx alu_control_22.ncd -o alu_control_22.twr alu_control_22.pcf 
+bitgen -intstyle ise -f alu_control_22.ut alu_control_22.ncd 
